@@ -1,0 +1,70 @@
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+##
+# Your previous /Users/yujunliu/.bash_profile file was backed up as /Users/yujunliu/.bash_profile.macports-saved_2013-10-16_at_12:52:30
+##
+
+# MacPorts Installer addition on 2013-10-16_at_12:52:30: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+##
+# Your previous /Users/yujunliu/.bash_profile file was backed up as /Users/yujunliu/.bash_profile.macports-saved_2014-01-17_at_14:49:44
+##
+
+# MacPorts Installer addition on 2014-01-17_at_14:49:44: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+export PATH="/Users/username/.pyenv:$PATH"
+eval "$(pyenv init -)"
+
+#for MYSQL
+alias mysql=/usr/local/mysql/bin/mysql
+alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+PATH=$PATH:/usr/local/mysql/bin
+
+#for list
+alias l='ls -lah'
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+#PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+#export PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# $HOME/cs61b-software to put cs61b software.
+MASTERDIR=$HOME/cs61b-software
+export MASTERDIR
+
+PATH=${PATH}:${MASTERDIR}/bin
+
+CLASSPATH=${CLASSPATH:-.}
+CLASSPATH="${CLASSPATH}:$MASTERDIR/lib/*"
+export CLASSPATH
+# remove later######
+
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
