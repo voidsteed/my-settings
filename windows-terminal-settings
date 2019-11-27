@@ -40,13 +40,7 @@
       "hidden": false,
       "name": "Azure Cloud Shell",
       "source": "Windows.Terminal.Azure"
-    },
-        {
-            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "hidden": false,
-            "name": "Ubuntu",
-            "source": "Windows.Terminal.Wsl"
-        }
+    }
   ],
 
   // Add custom color schemes to this array
@@ -54,5 +48,40 @@
 
   // Add any keybinding overrides to this array.
   // To unbind a default keybinding, set the command to "unbound"
-  "keybindings": []
+  "keybindings": [
+    { "command": "splitHorizontal", "keys": ["alt+shift+-"] },
+    { "command": "splitVertical", "keys": ["alt+shift+plus"] },
+    {
+      "command": { "action": "moveFocus", "direction": "down" },
+      "keys": ["alt+down"]
+    },
+    {
+      "command": { "action": "moveFocus", "direction": "left" },
+      "keys": ["alt+left"]
+    },
+    {
+      "command": { "action": "moveFocus", "direction": "right" },
+      "keys": ["alt+right"]
+    },
+    {
+      "command": { "action": "moveFocus", "direction": "up" },
+      "keys": ["alt+up"]
+    },
+    {
+      "command": { "action": "resizePane", "direction": "down" },
+      "keys": ["alt+shift+down"]
+    },
+    {
+      "command": { "action": "resizePane", "direction": "left" },
+      "keys": ["alt+shift+left"]
+    },
+    {
+      "command": { "action": "resizePane", "direction": "right" },
+      "keys": ["alt+shift+right"]
+    },
+    {
+      "command": { "action": "resizePane", "direction": "up" },
+      "keys": ["alt+shift+up"]
+    }
+  ]
 }
