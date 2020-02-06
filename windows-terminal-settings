@@ -4,7 +4,7 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
 
-  "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+  "defaultProfile": "{5dfed57a-b7ee-4044-8e2c-a7810f4b8db1}",
 
   "profiles": [
     {
@@ -23,10 +23,12 @@
       "startingDirectory": null
     },
     {
+      "guid": "{5dfed57a-b7ee-4044-8e2c-a7810f4b8db1}",
       "name": "Git Bash",
+      "hidden": false,
       "commandline": "C:/Program Files/Git/bin/bash.exe",
       "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
-      "startingDirectory": "C:/dev"
+      "startingDirectory": null
     },
     {
       "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
